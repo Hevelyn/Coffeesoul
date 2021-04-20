@@ -6,8 +6,8 @@
 
 #main-banner {
     padding: 0px;
-    width: 1903px;
-    height: 782px;
+    width: 100%;
+    /* height: 782px; */
     overflow: hidden;
 }
 #main-banner-content {
@@ -42,3 +42,6 @@
     right: -3em;
 }
 
+#navbarSupportedContent{
+    margin-right: -25em;
+}
