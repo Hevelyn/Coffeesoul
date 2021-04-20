@@ -1,0 +1,44 @@
+/* ///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////    SERVICES 
+///////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////// */
+
+#main-banner {
+    padding: 0px;
+    width: 1903px;
+    height: 782px;
+    overflow: hidden;
+}
+#main-banner-content {
+    height: 250px;
+    width: 700px;
+    float: right;
+    margin: 40px 60px;
+    background: #555;
+}
+.navbar-brand {
+    position: relative;
+    right: -19em;
+    color: #ffff;
+}
+.navbar-collapse {
+    position: absolute;
+    right: 32em;
+    
+}
+.nav-item {
+    padding-left: 0.9em;
+}
+.nav-link {
+    color: #ffff;
+}
+.img {
+    position: relative;
+    right: -5em;
+}
+.text-h3 {
+    position: relative;
+    right: -3em;
+}
+
