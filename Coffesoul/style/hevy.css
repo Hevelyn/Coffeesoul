@@ -10,7 +10,6 @@ nav {
     border-bottom: 1px solid #ccc;
 }
 
-
 /* ///////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////
 ///////////    SERVICES 
@@ -186,10 +185,13 @@ margin-top: 2em;
 .bg-black-two {
     background-color: #000;
     position: relative;
-    top: -4em;
     padding: 0px 0px 3em 0px;
 }
 
 .icon-redes{
     border-radius: 50%;
+}
+
+#teste {
+    margin: 0em 0em -4em 0em;
 }
