@@ -1,5 +1,17 @@
 /* ///////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////
+///////////    NAVBAR
+///////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////// */
+
+nav {
+    z-index: 2030;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+/* ///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
 ///////////    SERVICES 
 ///////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////// */
@@ -8,7 +20,7 @@
     padding: 0px;
     width: 100%;
     /* height: 782px; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 #main-banner-content {
     height: 250px;
@@ -33,6 +45,9 @@
 .nav-link {
     color: #ffff;
 }
+.home-services {
+    padding: 0;
+}
 .img {
     position: relative;
     right: -5em;
@@ -40,12 +55,30 @@
 .text-h3 {
     position: relative;
     right: -3em;
+    color: #000;
 }
-
 #navbarSupportedContent{
     margin-right: -25em;
 }
-
+.bg-marrom {
+    background-color: #c49b63;
+    position: relative;
+    top: -4em;
+    padding: 0 0 9em 0;
+}
+.row {
+    position: relative;
+    top: 3em;
+    left: 3em;
+}
+.bg-dark {
+    padding: 0 0 30em 0;
+    top: -4em;
+    position: relative;
+}
+.rede-social {
+    margin-right: 0.3em;
+}
 
 
 
@@ -63,16 +96,11 @@
     padding: 0px;
     width: 100%;
     height: 45em;
-    /* overflow: hidden;  Ele tira o scroll*/
+    overflow: hidden;
     bottom: 4em;
     position: relative;
 }
 
-nav {
-    z-index: 2030;
-    background-color: transparent;
-    border-bottom: 1px solid #ccc;
-}
 
 .bg-fundo::before {
     content: ""; /*é usada com os pseudoelementos ::before e ::after para gerar conteúdo em um elemento */
@@ -91,6 +119,79 @@ nav {
     margin-top: 15em;
 }
 
-h1, h5 {
+h1, h2, h5, h3 {
     color: #FFF;
+}
+p {
+    color: #808080;
+}
+.bg-black{
+    background-color: #000;
+    position: relative;
+    top: -4em;
+    padding: 0px 0px 3em 0px;
+}
+
+.bg-grey{
+    background-color: #0f0e0e;
+    position: relative;
+    top: -4em;
+    padding: 0px 0px 10em 0px;
+}
+
+.img-menu{
+    border-radius: 50%;
+    width: 15%;
+}
+
+.text-menu{
+    margin-left: 5em;
+    margin-top: -1em;
+}
+/* .price{
+    margin-left: 5.3em;
+} */
+
+.drinks-menu{
+margin-top: 5em;
+}
+
+.drinks-menu-two{
+margin-top: 2em;
+
+}
+.text-menu-two{
+    text-align: center;
+    margin-left: -2em;
+}
+
+.btn-color{
+    background-color: #c49b63;
+    color: #0f0e0e;
+    font-weight: 600;
+    padding: 0.7em;
+}
+
+.btn-gp{
+    margin-left: 21.5em;
+}
+
+.btn-color-two{
+    color: #c49b63;
+    border: 1px solid #c49b63;
+    font-weight: 600;
+}
+
+.bg-black-two {
+    background-color: #000;
+    position: relative;
+    padding: 0px 0px 3em 0px;
+}
+
+.icon-redes{
+    border-radius: 50%;
+}
+
+#teste {
+    margin: 0em 0em -4em 0em;
 }
